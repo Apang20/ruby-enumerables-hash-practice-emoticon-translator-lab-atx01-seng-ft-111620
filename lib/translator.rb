@@ -26,7 +26,7 @@ puts emo_file
 puts emoticon
 
 if emo_file[meaning][:japanese] == emoticon
-  binding.pry
+
       result = meaning
 else
   result = "Sorry, that emoticon was not found"
