@@ -31,6 +31,7 @@ end
 if (result.nil?)
   result = "Sorry, that emoticon was not found"
 end
+end
 result
 end 
 
