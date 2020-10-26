@@ -16,8 +16,7 @@ end
 
 
 def get_english_meaning(emoticons_file, emoticon)
- emoticons_file
- 
+emoticons_file = YAML.load_file('./lib/emoticons.yml')
  binding.pry 
 
  if 
