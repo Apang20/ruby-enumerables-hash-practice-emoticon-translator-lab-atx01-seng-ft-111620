@@ -39,7 +39,7 @@ def get_japanese_emoticon(emoticons_file, emoticon)
 result = ""
 emo_file.each do |meaning, value|
 if emo_file[meaning][:english] == emoticon
-      result = 
+      result = emo_file[meaning][:japanese]
 end 
 end
 if (result == "")
