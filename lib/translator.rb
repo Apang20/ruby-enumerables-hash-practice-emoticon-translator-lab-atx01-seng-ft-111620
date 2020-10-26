@@ -28,7 +28,7 @@ if emo_file[meaning][:japanese] == emoticon
 else
   
 end 
-if (result )
+if (result.)
 
 end
 
