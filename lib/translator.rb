@@ -19,7 +19,7 @@ def get_english_meaning(emoticons_file, emoticon)
 #emoticons_file = YAML.load_file('./lib/emoticons.yml')
 
 emoticons_file.each do |meaning, value|
-  result = ""
+  #result = ""
  if emoticons_file[meaning][:japanese] = value[1]
     result = emoticons_file[meaning][0]
  else
