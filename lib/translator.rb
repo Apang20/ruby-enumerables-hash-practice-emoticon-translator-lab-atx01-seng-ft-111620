@@ -17,7 +17,7 @@ end
 
 def get_english_meaning(emoticons_file, emoticon)
  emoticons_file
- binding.pry 
+binding.pry  
  if 
 end 
 
