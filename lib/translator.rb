@@ -30,8 +30,8 @@ result
 end 
 
 
-def get_japanese_emoticon(emoticons_file, emoticon)
+#def get_japanese_emoticon(emoticons_file, emoticon)
   #takes eng emoticon and translate to jap emoticon 
   
-end
+#end
 
