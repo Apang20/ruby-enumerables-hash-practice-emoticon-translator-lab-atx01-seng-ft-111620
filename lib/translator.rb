@@ -22,11 +22,11 @@ emo_file = load_library(emoticons_file)
 result = ""
 emo_file.each do |meaning, value|
   
-puts emo_file
-binding.pry
+#puts emo_file
+#binding.pry
   
 if emo_file[meaning][:japanese] = emoticon
-    result = emo_file[meaning]
+    result = meaning
 else
   result = "Sorry, that emoticon was not found"
 end 
