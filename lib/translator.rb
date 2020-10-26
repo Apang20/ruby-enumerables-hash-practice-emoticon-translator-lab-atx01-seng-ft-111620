@@ -25,10 +25,12 @@ emo_file.each do |meaning, value|
 puts emo_file
 puts emoticon
 
-if emo_file[meaning][:japanese] = emoticon
-    result = meaning
-    puts "if is true"
-    binding.pry
+if emo_file[meaning][:japanese] == emoticon
+    {
+      result = meaning
+      puts "if is true"
+      binding.pry
+    }
 else
   result = "Sorry, that emoticon was not found"
 end 
