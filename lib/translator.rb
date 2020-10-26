@@ -25,6 +25,7 @@ emo_file.each do |meaning, value|
 puts emo_file
 puts emoticon
 
+binding.pry
 if emo_file[meaning][:japanese] == emoticon
       result = meaning
 else
