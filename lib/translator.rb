@@ -29,7 +29,7 @@ else
   #result = "Sorry, that emoticon was not found"
 end 
 end
-if (result.nil?)
+if (result == "")
   result = "Sorry, that emoticon was not found"
 end
 result
