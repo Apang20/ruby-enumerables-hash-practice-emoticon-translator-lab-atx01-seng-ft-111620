@@ -22,8 +22,9 @@ emoticons_file.each do |meaning, value|
    emoticons_file[meaning][:english]
  else
    "Sorry, that emoticon was not found"
+   binding.pry
 end 
-binding.pry 
+
 
 def get_japanese_emoticon(emoticons_file, emoticon)
   
