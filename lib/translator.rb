@@ -28,8 +28,9 @@ if emo_file[meaning][:japanese] == emoticon
 else
   result = "Sorry, that emoticon was not found"
 end 
-result
+
 end
+
 end 
 
 
