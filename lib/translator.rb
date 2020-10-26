@@ -24,7 +24,6 @@ emoticons_file.each do |meaning, value|
     result = emoticons_file[meaning][0]
  else
    result = "Sorry, that emoticon was not found"
-   binding.pry
 end 
 result
 end 
