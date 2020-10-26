@@ -32,8 +32,20 @@ result
 end 
 
 
-#def get_japanese_emoticon(emoticons_file, emoticon)
+def get_japanese_emoticon(emoticons_file, emoticon)
   #takes eng emoticon and translate to jap emoticon 
-  
-#end
+ 
+ emo_file = load_library(emoticons_file)
+result = ""
+emo_file.each do |meaning, value|
+if emo_file[meaning][:english] == emoticon
+      result = 
+end 
+end
+if (result == "")
+  result = "Sorry, that emoticon was not found"
+end
+result
+end  
+end
 
