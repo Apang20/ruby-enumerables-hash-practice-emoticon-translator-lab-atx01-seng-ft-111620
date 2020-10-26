@@ -22,7 +22,7 @@ result = ""
 emoticons_file.each do |meaning, value|
   
 if emoticons_file[meaning][:japanese] = emoticon
-    result = emoticons_file[meaning][0]
+    result = emoticons_file[meaning][:japanese]
 else
   result = "Sorry, that emoticon was not found"
 end 
