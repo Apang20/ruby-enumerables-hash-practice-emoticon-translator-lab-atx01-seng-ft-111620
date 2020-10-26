@@ -26,7 +26,7 @@ emo_file.each do |meaning, value|
 if emo_file[meaning][:japanese] == emoticon
       result = meaning
 else
-  result = "Sorry, that emoticon was not found"
+  #result = "Sorry, that emoticon was not found"
 end 
 
 end
