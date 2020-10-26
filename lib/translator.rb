@@ -14,24 +14,24 @@ outer_hash[meaning][:japanese] = value[1]
 end
 
 
-# def get_english_meaning(emoticons_file, emoticon)
-# #takes jap emoticon and return eng meaning
-# #emoticons_file = YAML.load_file('./lib/emoticons.yml')
+def get_english_meaning(emoticons_file, emoticon)
+#takes jap emoticon and return eng meaning
+#emoticons_file = YAML.load_file('./lib/emoticons.yml')
 
-# emoticons_file.each do |meaning, value|
-#   #result = ""
-# if emoticons_file[meaning][:japanese] = value[1]
-#     #result = emoticons_file[meaning][0]
-# else
-#   #result = 
-#   "Sorry, that emoticon was not found"
-# end 
-# #result
-# #end 
+emoticons_file.each do |meaning, value|
+  #result = ""
+if emoticons_file[meaning][:japanese] = value[1]
+    #result = emoticons_file[meaning][0]
+else
+  #result = 
+  "Sorry, that emoticon was not found"
+end 
+#result
+#end 
 
 
-# def get_japanese_emoticon(emoticons_file, emoticon)
-#   #takes eng emoticon and translate to jap emoticon 
+def get_japanese_emoticon(emoticons_file, emoticon)
+  #takes eng emoticon and translate to jap emoticon 
   
-# end
+end
 
