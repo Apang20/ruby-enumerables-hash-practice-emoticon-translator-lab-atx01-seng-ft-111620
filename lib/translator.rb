@@ -15,12 +15,14 @@ outer_hash[meaning][:japanese] = value[1]
 end
 
 
+def get_english_meaning(emoticons_file, emoticon)
+ emoticons_file
+ binding.pry 
+ if 
+end 
 
-def get_japanese_emoticon(emoticons, emoticon)
+
+def get_japanese_emoticon(emoticons_file, emoticon)
   
 end
 
-
-def get_english_meaning(emoticons, emoticon)
- 
-end 
