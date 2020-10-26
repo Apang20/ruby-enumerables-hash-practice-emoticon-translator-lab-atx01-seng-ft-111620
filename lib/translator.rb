@@ -1,5 +1,4 @@
-# require modules here
-# Write a method that loads the emoticons.yml file.
+
 require 'yaml'
 require 'pry'
 
